@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="./img/logo.png" alt="Instixct Poker Script Logo" width="180" />
+  <img src="./img/logo.png" alt="Instixct Poker Script Logo" width="120" />
 </p>
 
-<h1 align="center">♠️ Instixct Poker System</h1>
+<h1 align="center">Poker System</h1>
 
 <p align="center">
   A lightweight <b>SA-MP / open.mp Pawn filterscript</b> that provides a full-featured <br/>
@@ -23,8 +23,6 @@
 - 🛠️ **Admin management commands** (/ctable, /dtable, /agame)
 - 📍 Dynamic table creation at player position
 - 🔄 Game flow handling (turns, betting, abort system)
-- 🧠 Modular Pawn architecture (split into poker/*.pwn files)
-- 🛡️ Anti-cheat friendly cash handling system
 - 📊 Supports multiple tables simultaneously
 
 ---
@@ -64,12 +62,13 @@ Make sure your server includes:
 
 - Admin checks use `IsPlayerAdmin()`
 - Tables are created at player position (Z offset applied)
-- Anti-cheat integration uses `GivePlayerCash` instead of direct money edits
 - Script is modular and split into `poker/*.pwn` components
 
 ---
 
 ## 📁 Structure
+
+```
 poker/
 ├── core.pwn
 ├── commands.pwn
@@ -79,3 +78,4 @@ poker/
 ├── helpers.pwn
 ├── textdraws.pwn
 └── init.pwn
+```
