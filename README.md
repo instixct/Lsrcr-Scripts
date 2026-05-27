@@ -26,7 +26,5 @@ A full-featured poker filterscript with **admin controls, table management, and 
 
 ---
 
-## ❤️ Community
-
 Built for **Lsrcr**  
 Actively maintained and expanded with new gameplay systems and improvements.
